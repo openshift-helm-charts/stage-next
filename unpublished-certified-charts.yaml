@@ -6854,4 +6854,36 @@ entries:
     urls:
     - N/A
     version: 0.0.4
-generated: '2024-03-07T10:44:01.467350+00:00'
+  - annotations:
+      charts.openshift.io/digest: sha256:f064b499a8ac73d445e5fbe17031c68d0479ef5982145bf1bfba189db2f2f92f
+      charts.openshift.io/lastCertifiedTimestamp: '2024-03-08T07:30:14.105544+00:00'
+      charts.openshift.io/name: testing-webonly-helm-chart-415
+      charts.openshift.io/providerType: partner
+      charts.openshift.io/submissionTimestamp: '2024-03-08T07:32:28.161884+00:00'
+      charts.openshift.io/supportedOpenShiftVersions: '>=4.14'
+      charts.openshift.io/testedOpenShiftVersion: '4.15'
+    apiVersion: v2
+    appVersion: 1.15.2
+    description: Official HashiCorp Vault Chart
+    digest: 1c2532bb6843d3fd5d11c2e0b028f40c8d4fc622c18dc2cc7825d5fe906b670a
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.27.0'
+    name: testing-webonly-helm-chart-415
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - N/A
+    version: 0.0.5
+generated: '2024-03-08T07:32:28.105322+00:00'
